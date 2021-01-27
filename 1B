@@ -1,0 +1,73 @@
+Dell@Dell MINGW64 ~/Desktop
+$ mkdir level1A
+
+Dell@Dell MINGW64 ~/Desktop
+$ cd level1A
+
+Dell@Dell MINGW64 ~/Desktop/level1A
+$ touch file1.md
+
+Dell@Dell MINGW64 ~/Desktop/level1A
+$ cd level1A
+bash: cd: level1A: No such file or directory
+
+Dell@Dell MINGW64 ~/Desktop/level1A
+$ mkdir level2A
+
+Dell@Dell MINGW64 ~/Desktop/level1A
+$ cd level2A
+
+Dell@Dell MINGW64 ~/Desktop/level1A/level2A
+$ touch file2.md
+
+Dell@Dell MINGW64 ~/Desktop/level1A/level2A
+$ mkdir level3A
+
+Dell@Dell MINGW64 ~/Desktop/level1A/level2A
+$ cd level3A
+
+Dell@Dell MINGW64 ~/Desktop/level1A/level2A/level3A
+$ touch file3.md
+
+Dell@Dell MINGW64 ~/Desktop/level1A/level2A/level3A
+$ cd Destop
+bash: cd: Destop: No such file or directory
+
+Dell@Dell MINGW64 ~/Desktop/level1A/level2A/level3A
+$ cd Desktop
+bash: cd: Desktop: No such file or directory
+
+Dell@Dell MINGW64 ~/Desktop/level1A/level2A/level3A
+$ cd ~/Desktop
+
+Dell@Dell MINGW64 ~/Desktop
+$ mkdir level1B
+
+Dell@Dell MINGW64 ~/Desktop
+$ cd level1B
+
+Dell@Dell MINGW64 ~/Desktop/level1B
+$ mkdir level2B
+
+Dell@Dell MINGW64 ~/Desktop/level1B
+$ cd level2B
+
+Dell@Dell MINGW64 ~/Desktop/level1B/level2B
+$ touch newfile2.md
+
+Dell@Dell MINGW64 ~/Desktop/level1B/level2B
+$ cd level2B
+bash: cd: level2B: No such file or directory
+
+Dell@Dell MINGW64 ~/Desktop/level1B/level2B
+$ touch newfile1.md
+
+Dell@Dell MINGW64 ~/Desktop/level1B/level2B
+$ cd level1B
+bash: cd: level1B: No such file or directory
+
+Dell@Dell MINGW64 ~/Desktop/level1B/level2B
+$ cd ~/Desktop
+
+Dell@Dell MINGW64 ~/Desktop
+$ touch root.md
